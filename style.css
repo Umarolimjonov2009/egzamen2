@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+body{
+    font-family: "Quantico", serif;
+}
+header{
+
+    background: #272C3D;
+    box-shadow: 0px 0px 10px 10px #00000080;
+    padding: 30px 0;
+}
+.ota{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: #FF9C28;
+}
+#AB{
+    margin-left: -30px;
+}
+input{
+    width: 141px;
+    height: 30px;
+    background-color: #404864;
+}
+select{
+    background: #00000080;
+    margin-left: 100px;
+}
+select option{
+    background: #00000080;
+}
+.IMG{
+    background-image: url(./img/Bg.png);
+    background-repeat: no-repeat;
+    height: 700px;
+    background-size: cover;
+}
+.Legend{
+    background-color: #000000;
+}
+.MAJOR{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h2{
+font-family: Quantico;
+font-size: 24px;
+font-weight: 400;
+line-height: 34.32px;
+color: white;
+text-align: center;
+}
+.ota2{
+    background: #1B1E27;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 50px;
+    color: white;
+}
+.write{
+    width: 323px;
+}
+.ICON{
+    background-color: #272C3D;
+}
+.OTA3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
